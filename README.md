@@ -19,21 +19,21 @@ This is a React-based web application for ordering food online. The application 
 - A third-party API key (for restaurant and menu data)
 
 
-2. Install Dependencies
+## Install Dependencies
 
 npm install
-# or
+or
 yarn install
 
 
-3. Start the Development Server
+## Start the Development Server
 
 npm start
-# or
+or
 yarn start
 
 
-Usage
-Browse Restaurants: View the list of available restaurants.
-View Menu: Click on a restaurant to see the menu items it offers.
-Place Order: Add items to your cart and proceed to checkout.
+## Usage
+- **Browse Restaurants:** View the list of available restaurants.
+- **View Menu:** Click on a restaurant to see the menu items it offers.
+- **Place Order:** Add items to your cart and proceed to checkout.
