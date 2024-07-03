@@ -17,8 +17,7 @@ function useRestaurantsList() {
         const json = await data.json();
         dispatch(addRestaurants(
             json.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants
-        )) 
-        console.log(list);
+        ))
     }
 }
 

@@ -11,7 +11,6 @@ function RestaurantMenu() {
   const { id } = useParams()
   useRestaurantMenu(id)
   const menu = useSelector(store=>store.menu.menuItems[id])
-  // console.log(menu)
 
   if (!menu) return <div className="w-9/12 mx-auto"><CardsWave /></div>
   const {
@@ -23,7 +22,6 @@ function RestaurantMenu() {
     cloudinaryImageId,
   } = menu
   const itemCards = menu.cards
-  // console.log(itemCards)
   return (
     <div className="w-screen md:w-3/4 lg:w-2/4 md:mt-28 p-2 my-8 mx-auto">
       <div className="h-36 rounded-2xl shadow-2xl mx-auto flex justify-between overflow-hidden">

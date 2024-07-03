@@ -11,6 +11,7 @@ import { Provider } from "react-redux";
 import appStore from "./utils/store/appStore";
 import OrderDetails from "./components/OrderDetails.jsx";
 import OrderPlaced from "./components/OrderPlaced.jsx";
+import Errorpage from "./components/Errorpage.jsx";
 
 const render = createBrowserRouter([
   {
@@ -30,7 +31,7 @@ const render = createBrowserRouter([
         element: <Cart />,
       },
       {
-        path: "/Order",
+        path: "/order",
         element: <OrderDetails />,
       },
       {
@@ -43,6 +44,11 @@ const render = createBrowserRouter([
       },
     ],
   },
+  {
+      path: "*",
+      element: <Errorpage />,
+      error: true,  
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

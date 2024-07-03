@@ -9,7 +9,6 @@ function MenuCard({ props }) {
   const { id, name, price, defaultPrice, description, imageId ,quantity} = props
   var { rating } = props.ratings?.aggregatedRating
   const [quantitys, setquantitys] = useState((quantity!=undefined)?quantity:0) 
-  console.log(id)
   rating = rating?rating:4.1
   const dispatch = useDispatch()
   const handleAdditems = () => {

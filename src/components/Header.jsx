@@ -9,7 +9,6 @@ function Header() {
   const cartItems = useSelector((store) => store.cart.items)
   const dispatch = useDispatch()
   const [menu,setmenu] = useState(false)
-  console.log(menu)
   const handleSign = () => {
     dispatch(showsignpage())
   }

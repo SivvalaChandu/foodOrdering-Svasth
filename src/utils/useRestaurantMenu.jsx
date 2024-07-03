@@ -6,7 +6,6 @@ import { addmenu } from "./store/MenuSlice";
 function useRestaurantMenu(id) {
   const dispatch = useDispatch();
   const menu = useSelector((store) => store.menu.menuItems);
-  // console.log(menu.length);
   
   useEffect(() => {
     if (!menu[id]) {

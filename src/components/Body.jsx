@@ -9,7 +9,6 @@ function Body() {
   useRestaurantsList()
   const restaurantsList = useSelector((store) => store.restaurants.list[0])
   const [searchRestaurants, setsearchRestaurants] = useState([])
-  console.log(searchRestaurants)
   useEffect(() => {
     setsearchRestaurants(restaurantsList)
   }, [restaurantsList])

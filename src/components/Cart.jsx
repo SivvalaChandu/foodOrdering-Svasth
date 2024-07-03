@@ -65,7 +65,7 @@ function Cart() {
                 <button onClick={() => dispatch(clearCart())} className="md:w-2/5 w-5/12 h-12 bg-violet-300 rounded-lg">
                   Clear
                 </button>
-                <Link to={"/order"} className="md:w-2/5 w-1/2 w-5/12 h-12 bg-violet-400 rounded-lg text-center pt-4">Checkout</Link>
+                <Link to={"/order"} className="md:w-2/5 w-1/2 w-5/12 h-12 bg-violet-400 rounded-lg text-center pt-3">Checkout</Link>
               </div>
             </>
           )}
