@@ -34,6 +34,6 @@ yarn start
 
 
 ## Usage
-Browse Restaurants: View the list of available restaurants.
-View Menu: Click on a restaurant to see the menu items it offers.
-Place Order: Add items to your cart and proceed to checkout.
+- **Browse Restaurants:** View the list of available restaurants.
+- **View Menu:** Click on a restaurant to see the menu items it offers.
+- **Place Order:** Add items to your cart and proceed to checkout.
