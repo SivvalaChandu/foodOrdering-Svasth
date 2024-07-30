@@ -12,14 +12,14 @@ This is a React-based web application for ordering food online. The application 
 
 - **Browse Restaurants:** View the list of available restaurants.
 
-  <img src="../images/restaurants.png" width="600" />
+  <img src="images/restaurants.png" alt="Alt Text" width="600" />
 
 - **View Menu:** Click on a restaurant to see the menu items it offers.
 
-  <img src="../images/menu.png" width="600" />
+  <img src="images/menu.png" width="600" />
 - **Place Order:** Add items to your cart and proceed to checkout.
  
-  <img src="../images/cart.png" width="600" />
+  <img src="images/cart.png" width="600" />
 
 
 
