@@ -14,7 +14,7 @@ function Header() {
   }
   return(
     <div className="w-screen h-10 md:h-14 lg:h-16  md:px-16 lg:px-48 z-10 md:fixed top-0 flex justify-between bg-gradient-to-r from-violet-500 to-violet-50 shadow-md shadow-gray-100 items-center overflow-hidden">
-      <Link to={"/"} className="w-20 md:w-28 lg:w-40 transition duration-100 md:hover:scale-105">
+      <Link to={"/"} className="w-24 md:w-28 lg:w-40 transition duration-100">
         <img src="./src/assets/logo.png" alt="" />
       </Link>
       

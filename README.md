@@ -9,6 +9,20 @@ This is a React-based web application for ordering food online. The application 
 - User authentication and authorization
 - Order placement and tracking
 
+
+- **Browse Restaurants:** View the list of available restaurants.
+
+  <img src="images/restaurants.png" width="100" />
+
+- **View Menu:** Click on a restaurant to see the menu items it offers.
+
+  <img src="images/menu.png" width="100" />
+- **Place Order:** Add items to your cart and proceed to checkout.
+ 
+  <img src="images/cart.png" width="100" />
+
+
+
 ## Technologies Used
 - **Frontend:** React, Redux, Tailwind CSS
 - **API Integration:** Third-party API for restaurant and menu data
@@ -31,9 +45,3 @@ yarn install
 npm start
 or
 yarn start
-
-
-## Usage
-- **Browse Restaurants:** View the list of available restaurants.
-- **View Menu:** Click on a restaurant to see the menu items it offers.
-- **Place Order:** Add items to your cart and proceed to checkout.
