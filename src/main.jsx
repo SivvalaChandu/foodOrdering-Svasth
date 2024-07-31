@@ -31,7 +31,7 @@ const render = createBrowserRouter([
         element: <Cart />,
       },
       {
-        path: "/order",
+        path: "/cart/order",
         element: <OrderDetails />,
       },
       {

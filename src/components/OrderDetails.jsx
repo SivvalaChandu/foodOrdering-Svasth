@@ -36,7 +36,7 @@ function OrderDetails(params) {
         <input className="my-2" type="radio" value="" name="delivery" />
         Cash On Delivery 
         <div className="mb-6 opacity-45">Other Payment Options coming soon.</div>
-        {item.length == 0 ? <button onClick={(e)=>onclick(e)} className="px-24 py-3 bg-violet-400 rounded-lg">Add items to Cart</button>:<Link to={"/orderplaced"} className="px-24 py-3 bg-violet-400 rounded-lg">Place Order</Link>}
+        {item.length == 0 ? <button onClick={(e)=>onclick(e)} className="px-24 py-3 bg-violet-400 rounded-lg">Add items to Cart</button>:<Link to={"/cart/orderplaced"} className="px-24 py-3 bg-violet-400 rounded-lg">Place Order</Link>}
       </form>
     </div>
   );
