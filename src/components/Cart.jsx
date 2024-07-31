@@ -4,7 +4,7 @@ import MenuCard from "./MenuCard"
 import { MdOutlineCurrencyRupee } from "react-icons/md"
 import { clearCart } from "../utils/store/CartSlice"
 import { Link } from "react-router-dom"
-// import {cartempty} from "./assets/cart"
+import cartImg from "../assets/cart.png"
 
 function Cart() {
   const item = useSelector((appStore) => appStore.cart.items)
@@ -19,7 +19,7 @@ function Cart() {
     total += quantity * price
   }
   
-  if(item.length==0) return <div className="h-screen w-screen flex justify-center items-center"><img className="w-32 md:w-60 lg:w-96 md:h-60 lg:h-96 shrink" src="./src/assets/cart.png" alt="" />
+  if(item.length==0) return <div className="h-screen w-screen flex justify-center items-center"><img className="w-32 md:w-60 lg:w-96 md:h-60 lg:h-96 shrink" src={cartImg} alt="" />
   <div className="w-24 md:w-40 lg:w-52 text-sm md:text-lg lg:text-2xl inline tracking-tighter">You look hungry. Let's order some food and eat together</div>
 </div>
   return (

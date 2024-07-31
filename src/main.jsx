@@ -39,7 +39,7 @@ const render = createBrowserRouter([
         element: <RestaurantMenu />,
       },
       {
-        path: "/orderplaced",
+        path: "/cart/orderplaced",
         element: <OrderPlaced />,
       },
     ],
