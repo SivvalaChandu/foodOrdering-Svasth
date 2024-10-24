@@ -11,7 +11,6 @@ export default function MenuButtons({menushow}) {
       }
 
     const handleClick = () => {
-      console.log("1");
         menushow()
       }
   return (

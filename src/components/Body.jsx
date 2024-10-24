@@ -22,7 +22,6 @@ function Body() {
             className="pl-3 md:p-5 h-8 outline-none rounded-full"
             type="text"
             placeholder="Fooding..."
-            // value={search}
             onChange={(e) => {
               if (e.target.value.trim() == "") {
                 return setsearchRestaurants(restaurantsList)
